@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.authentcate'
+    namespace 'com.example.prakashauth'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.authentcate"
+        applicationId "com.example.prakashauth"
         minSdk 24
         targetSdk 34
         versionCode 1

@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,21 +15,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Authentcate"
         tools:targetApi="31">
+
+        <!-- Main Activity -->
         <activity
             android:name=".view.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".view.HomeActivity"
-            android:exported="false" />
+
+        <!-- Register Activity -->
         <activity
             android:name=".view.RegisterActivity"
             android:exported="true" />
+
+        <!-- HomeActivityRegister -->
+        <activity
+            android:name=".view.HomeActivityRegister"
+            android:exported="false" />
+
+        <!-- HomeActivityLogin (Add this entry) -->
+        <activity
+            android:name=".view.HomeActivityLogin"
+            android:exported="false" />
+
     </application>
 
 </manifest>

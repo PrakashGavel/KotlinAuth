@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Authentcate"
+rootProject.name = "Prakashauth"
 include(":app")
  
